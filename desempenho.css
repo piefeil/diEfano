@@ -1,0 +1,95 @@
+/* Definindo as cores que serão usadas */
+:root {
+  --preto: #000;
+  --laranja: #D96200;
+  --amarelo: #dbb002;
+  --branco: #fff;
+  }
+  
+  /* Estilizando o título */
+  h1 {
+  color: var(--branco);
+  background-color: var(--preto);
+  text-align: center;
+  padding: 20px;
+  font-size: 36px;
+  margin-top: 0;
+  }
+  
+  /* Estilizando a tabela */
+  table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 90%;
+  background-color: var(--branco);
+  }
+  
+  /* Definindo estilos para as células do cabeçalho */
+  th {
+  background-color: var(--laranja);
+  color: var(--preto);
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid var(--preto);
+  }
+  
+  /* Definindo estilos para as células de dados */
+  td {
+  background-color: var(--branco);
+  color: var(--preto);
+  padding: 10px;
+  text-align: center;
+  border: 1px solid var(--preto);
+  }
+  
+  /* Estilizando as linhas ímpares da tabela */
+  tr:nth-child(odd) {
+  background-color: var(--amarelo);
+  color: var(--preto);
+  }
+  
+  /* Estilizando os meses */
+  th:first-child,
+  td:first-child {
+  text-align: center;
+  font-weight: bold;
+  }
+  
+  /* Estilizando o fundo da página */
+  body {
+  background-color: var(--amarelo);
+  }
+
+  table.metas {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table.metas th, table.metas td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table.metas th {
+    background-color: #f2f2f2;
+    color: #444;
+  }
+  
+  table.metas tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table.metas tbody tr:hover {
+    background-color: #ddd;
+  }
+
+  table.metas h1 {
+    color: var(--branco);
+    background-color: var(--preto);
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    margin-top: 0;
+    }

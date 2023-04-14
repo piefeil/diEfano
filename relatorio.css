@@ -1,0 +1,70 @@
+/*Define as variáveis de cor que serão usadas em outras partes do CSS*/
+:root {
+	--preto: #000;
+	--laranja: #D96200;
+	--amarelo: #dbb002;
+  }
+  
+/*Define a cor de fundo, a cor do texto e a fonte que será usada em todo o corpo da página*/
+  body {
+	  background-color: var(--amarelo);
+	  color: var(--preto);
+	  font-family: Arial, sans-serif;
+  }
+
+/*Definem a cor de fundo, a cor do texto, o alinhamento de texto e o preenchimento do cabeçalho*/
+  header,
+  h1 {
+	  background-color: var(--preto);
+	  color: #fff;
+	  text-align: center;
+	  padding: 20px;
+  }
+
+/*Define as margens ao redor da seção principal da página*/
+  main {
+	  margin: 50px;
+  }
+
+/*Define a cor de fundo, o preenchimento e o raio de borda do formulário*/
+  form {
+	  background-color: #ececec;
+	  padding: 20px;
+	  border-radius: 10px;
+  }
+  
+/*Define a exibição de bloco, a margem inferior e o peso da fonte dos rótulos no formulário*/
+  label {
+	  display: block;
+	  margin-bottom: 10px;
+	  font-weight: bold;
+  }
+  
+/*Definem a exibição de bloco, a largura, a margem inferior, o preenchimento, a borda e o raio de borda dos campos de entrada e caixas de texto no formulário*/
+  input[type="text"],
+  input[type="email"],
+  textarea {
+	  display: block;
+	  width: 100%;
+	  margin-bottom: 20px;
+	  padding: 10px;
+	  border: none;
+	  border-radius: 5px;
+  }
+
+/*Define a cor de fundo, a cor do texto, o preenchimento, a borda, o raio de borda e o cursor do botão de envio do formulário*/
+  button[type="submit"] {
+	  background-color: var(--preto);
+	  color: #fff;
+	  padding: 10px;
+	  border: none;
+	  border-radius: 5px;
+	  cursor: pointer;
+  }
+  
+/*Define a cor de fundo e a cor do texto quando o cursor é passado sobre o botão de envio*/
+  button[type="submit"]:hover {
+	  background-color: #fff;
+	  color: var(--preto);
+  }
+  

@@ -1,0 +1,111 @@
+/*Define as variáveis de cores que serão usadas na página.*/
+:root {
+  --preto: #000;
+  --laranja: #D96200;
+  --amarelo: #dbb002;
+  --branco: #fff;
+}
+
+/*Define a cor de fundo e a cor do texto do corpo da página.*/
+body {
+  background-color: var(--preto);
+  color: var(--branco);
+}
+
+/*Define a cor de fundo, o alinhamento do texto e o preenchimento da parte superior da página.*/
+header {
+  background-color: var(--laranja);
+  text-align: center;
+  padding: 20px;
+}
+
+/*Define a cor de fundo e o preenchimento do elemento de navegação.*/
+nav {
+  background-color: var(--amarelo);
+  padding: 10px;
+}
+
+/*Remove a lista de marcadores padrão do elemento "ul".*/
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Define que os itens de navegação "li" serão exibidos em linha e adiciona margem à esquerda e à direita de cada item.*/
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/*Define que os links de navegação não terão decoração de texto, a cor do texto e a espessura da fonte.*/
+nav a {
+  text-decoration: none;
+  color: var(--preto);
+  font-weight: bold;
+}
+
+/*Define a cor do texto quando o usuário passa o mouse sobre os links de navegação.*/
+nav a:hover {
+  color: var(--laranja);
+}
+
+/*Define o preenchimento e o alinhamento do conteúdo principal da página.*/
+main {
+  padding: 50px;
+  text-align: center;
+}
+
+/*Define a exibição em bloco flexível, o espaço entre os itens e a margem superior do contêiner de botões.*/
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/*Define a exibição em coluna flexível, a largura, a altura, a margem e o preenchimento dos botões.*/
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: var(--laranja);
+  color: var(--branco);
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/*Define a cor de fundo quando o usuário passa o mouse sobre os botões.*/
+.button:hover {
+  background-color: var(--amarelo);
+}
+
+/*Define a exibição em bloco, a margem superior e a espessura da fonte da descrição abaixo dos botões.*/
+.description {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+  color: var(--branco);
+  text-align: center;
+}
+
+/*Define a cor de fundo, o alinhamento do texto, o preenchimento e a posição do rodapé da página.*/
+footer {
+  background-color: var(--laranja);
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
